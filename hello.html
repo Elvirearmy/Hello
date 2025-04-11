@@ -21,6 +21,11 @@
         <li><strong>git push</strong> : Envoie les commits vers le dépôt distant (comme GitHub).</li><br>
         <li><strong>git pull</strong> : Récupère les dernières modifications du dépôt distant (c'est a dire sur GitHub donc de la bas a ici plutot que le contraire donc l'oppose de git push).</li><br>
         <li><strong>git log</strong> : Affiche l'historique des commits.</li>
+        <li><strong>git reset --soft HEAD~1</strong> : Annule le dernier commit mais garde les modifications prêtes à être commitées.</li><br>
+<li><strong>git reset --mixed HEAD~1</strong> : Annule le dernier commit et retire les fichiers de la zone de staging (mais les laisse modifiés).</li><br>
+<li><strong>git reset --hard HEAD~1</strong> : Annule le commit et supprime les modifications (⚠️ Attention, irréversible).</li><br>
+<li><strong>git reset nom_fichier</strong> : Retire un fichier de la zone de staging sans supprimer ses modifications.</li><br>
+
     </ul>
                <Strong>NB: commit signifie modification ici</Strong>
     <p>🚀 Pratique pour suivre les versions de ton projet et collaborer facilement avec d'autres personnes !</p>
