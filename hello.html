@@ -31,6 +31,20 @@
 <li><strong>git reset --hard HEAD~1</strong> : Annule le commit et supprime les modifications (⚠️ Attention, irréversible).</li><br>
 <li><strong>git reset nom_fichier</strong> : Retire un fichier de la zone de staging sans supprimer ses modifications.</li><br>
 
+<h2>🌿 Commandes Git pour la gestion des branches</h2>
+<ul>
+    <li><strong>git branch</strong> : Affiche toutes les branches locales existantes.</li><br>
+    <li><strong>git branch [nom]</strong> : Crée une nouvelle branche (sans y basculer).</li><br>
+    <li><strong>git checkout [nom]</strong> : Bascule vers une branche existante.</li><br>
+    <li><strong>git checkout -b [nom]</strong> : Crée une nouvelle branche et bascule dessus en même temps.</li><br>
+    <li><strong>git merge [branche]</strong> : Fusionne la branche donnée avec celle sur laquelle tu es actuellement.</li><br>
+    <li><strong>git branch -d [nom]</strong> : Supprime une branche (si elle a déjà été fusionnée).</li><br>
+    <li><strong>git branch -D [nom]</strong> : Supprime une branche même si elle n’est pas fusionnée (⚠️ Attention).</li><br>
+    <li><strong>git switch [nom]</strong> : Alternative à <code>checkout</code> pour changer de branche.</li><br>
+    <li><strong>git switch -c [nom]</strong> : Crée une nouvelle branche et bascule dessus (comme <code>checkout -b</code>).</li><br>
+</ul>
+
+
     </ul>
                <Strong>NB: commit signifie modification ici</Strong>
     <p>🚀 Pratique pour suivre les versions de ton projet et collaborer facilement avec d'autres personnes !</p>
